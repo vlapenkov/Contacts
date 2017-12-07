@@ -1,0 +1,34 @@
+{"contacts":
+[
+
+  {
+    "name": "Анокин Олег Витальевич",
+    "email": "anokin@yst.ru",
+    "url":"https://cp.yarshintorg.ru/upload/main/17d/17d11fd8c238e453c2884e4d73449646.jpg"
+  },
+  {
+    "name": "Балагаева Инесса Викторовна",
+    "email": "balagaeva@yst.ru",
+    "url": "https://cp.yarshintorg.ru/upload/main/8be/8beaf0f9a5e7b8863b8a2dda4001ad8b.JPG"
+  },
+  {
+    "name": "Береснева Дарья Михайловна",
+    "email": "content@yst.ru",
+    "url": "https://cp.yarshintorg.ru/upload/main/b2a/b2a520ac04642ca47654ed450be569d5.jpg"
+  },
+  {
+    "name": "Бородина Светлана Андреевна",
+    "email": "zpao@somewhere.com",
+    "url": "https://cp.yarshintorg.ru/upload/main/bf9/bf9e35d17fef87644f58f176978c03bb.jpg"
+  },
+  {
+    "name": "Голубев Олег Арнольдович",
+    "email": "rpflorence@somewhere.com",
+    "url": "https://cp.yarshintorg.ru/upload/main/7c3/7c36a219a0e867ee3ed6e19553c336ef.jpg"
+
+  },
+  {
+    "name": "Sebastian Markbage",
+    "email": "sebmarkbage@here.com"
+  }
+]}
