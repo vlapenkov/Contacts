@@ -62,12 +62,14 @@ public class MyRecyclerCursorAdapter extends RecyclerView.Adapter<MyRecyclerCurs
                 idTextView.setText("Id:"+contactId);
                 nameTextView.setText(contactName);
                 phoneTextView.setText(contactPhone);
-                ImageView iv= (ImageView) view.findViewById(R.id.imageDocIcon);
+               ImageView iv= (ImageView) view.findViewById(R.id.imageDocIcon);
 
                 if (url!=null)
                     Picasso
                             .with(context)
                             .load(url)
+                            .resize(200,200)
+                            .centerCrop()
                             .into(iv);
             }
         };
@@ -96,12 +98,14 @@ public class MyRecyclerCursorAdapter extends RecyclerView.Adapter<MyRecyclerCurs
     public static class ViewHolder extends RecyclerView.ViewHolder {
       //  public ImageView image;
         public TextView nameTextView,phoneTextView,idTextView;
+        public ImageView iv;
 
         public ViewHolder(View itemView) {
             super(itemView);
             idTextView = (TextView) itemView.findViewById(R.id.contactId);
             nameTextView = (TextView) itemView.findViewById(R.id.nameTextView);
             phoneTextView = (TextView) itemView.findViewById(R.id.phoneTextView);
+            iv = (ImageView)itemView.findViewById(R.id.imageDocIcon);
 
         }
     }

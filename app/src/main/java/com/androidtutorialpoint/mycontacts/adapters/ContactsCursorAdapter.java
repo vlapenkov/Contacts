@@ -58,6 +58,8 @@ public class ContactsCursorAdapter extends CursorAdapter {
         Picasso
                 .with(context)
                 .load(url)
+               . resize(200,200)
+               .centerCrop()
    //            .placeholder(R.mipmap.ic_launcher) // can also be a drawable
                 .into(iv);
     }

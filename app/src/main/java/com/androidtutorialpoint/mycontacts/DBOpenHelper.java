@@ -13,7 +13,7 @@ public class DBOpenHelper extends SQLiteOpenHelper {
 
     //Constants for db name and version
     private static final String DATABASE_NAME = "contacts.db";
-    private static final int DATABASE_VERSION = 8;
+    private static final int DATABASE_VERSION = 10;
 
     //Constants for table and columns
     public static final String TABLE_CONTACTS = "contacts";

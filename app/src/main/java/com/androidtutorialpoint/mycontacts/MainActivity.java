@@ -49,9 +49,10 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             @Override
             public void onClick(View view) {
 
-             /*       Intent intent = new Intent(MainActivity.this, DownloadIntentService.class);
+/*                    Intent intent = new Intent(MainActivity.this, DownloadIntentService.class);
                     startService(intent);
                     */
+
 
                 Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 startActivity(intent);

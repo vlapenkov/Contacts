@@ -12,7 +12,7 @@ import com.androidtutorialpoint.mycontacts.R;
 import java.util.List;
 
 /**
- * Created by lapenkov on 07.12.2017.
+ *  В проекте не используется но м. быть использован для работы со списками в памяти
  */
 
 public class MyRecyclerAdapter extends RecyclerView.Adapter<MyRecyclerAdapter.ViewHolder> {
